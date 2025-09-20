@@ -1,0 +1,12 @@
+{
+  "users": [
+    {"name": "id", "type": "INT PRIMARY KEY"},
+    {"name": "username", "type": "VARCHAR(50)"},
+    {"name": "email", "type": "VARCHAR(100)"}
+  ],
+  "posts": [
+    {"name": "id", "type": "INT PRIMARY KEY"},
+    {"name": "user_id", "type": "INT"},
+    {"name": "content", "type": "TEXT"}
+  ]
+}
